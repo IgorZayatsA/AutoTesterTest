@@ -1,0 +1,7 @@
+<suite name="Suite1" verbose="1" >
+    <test name="RenCredit"   >
+        <packages>
+            <package name="com/gmail/igorzayatsa/tests" />
+        </packages>
+    </test>
+</suite>
