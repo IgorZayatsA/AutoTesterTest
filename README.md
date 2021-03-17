@@ -3,10 +3,10 @@
 Тестовое для специалиста в автотестирование:
 _________________________________________________
 На вход: установленные компоненты –
-IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/#section=windows
-Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
-Maven: https://maven.apache.org/download.cgi
-Chromedriver: http://chromedriver.chromium.org/downloads (версию драйвера скачивать исходя из версии Вашего браузера)*
+ IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/#section=windows
+ Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
+ Maven: https://maven.apache.org/download.cgi
+ Chromedriver: http://chromedriver.chromium.org/downloads (версию драйвера скачивать исходя из версии Вашего браузера)*
 ====
 Задание
 1. Создать проект на языке Java с использованием фреймворка сборкми проектов maven.
@@ -35,6 +35,7 @@ Chromedriver: http://chromedriver.chromium.org/downloads (версию драй�
 
 Дополнительное задание (по желанию и возможности). Необходимо скачать зависимости через pom файл Maven
 https://habr.com/ru/company/sberbank/blog/358836/
+
 https://github.com/allure-examples
 
 6) Сформировать отчет allure. Дать описание всем шагам и название тесту.
