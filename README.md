@@ -3,14 +3,17 @@
 Тестовое для специалиста в автотестирование:
 _________________________________________________
  На вход: установленные компоненты –
- IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/#section=windows
+ IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/#section=windows 
+ 
  Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html 
+ 
  Maven: https://maven.apache.org/download.cgi 
+ 
  Chromedriver: http://chromedriver.chromium.org/downloads
 
 ====
 Задание
-1. Создать проект на языке Java с использованием фреймворка сборкми проектов maven.
+1. Создать проект на языке Java с использованием фреймворка сборки проектов maven.
 2. В корневой pom добавить зависимости testng, selenium.
 ==========
 
@@ -34,7 +37,7 @@ _________________________________________________
 4) Выбрать чекбокс "Нет отчества"
 5) Выбрать значение из выпадающего списка "Где вы желаете получить карту"
 
-Дополнительное задание (по желанию и возможности). Необходимо скачать зависимости через pom файл Maven
+Дополнительное задание. Необходимо скачать зависимости через pom файл Maven
 https://habr.com/ru/company/sberbank/blog/358836/
 
 https://github.com/allure-examples
