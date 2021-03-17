@@ -3,7 +3,7 @@
 Тестовое для специалиста в автотестирование:
 _________________________________________________
  На вход: установленные компоненты –
-IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/#section=windows 
+IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/#section=windows
 Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html 
 Maven: https://maven.apache.org/download.cgi 
 Chromedriver: http://chromedriver.chromium.org/downloads (версию драйвера скачивать исходя из версии Вашего браузера)
