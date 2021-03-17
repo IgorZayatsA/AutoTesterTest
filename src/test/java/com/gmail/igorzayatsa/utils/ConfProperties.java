@@ -7,11 +7,10 @@ import java.util.Properties;
 public class ConfProperties {
     protected static FileInputStream fileInputStream;
     protected static Properties PROPERTIES;
-
     static {
         try {
             //указание пути до файла с настройками
-            fileInputStream = new FileInputStream("src/test/java/resources/conf.properties");
+            fileInputStream = new FileInputStream("src/test/resources/conf.properties");
             PROPERTIES = new Properties();
             PROPERTIES.load(fileInputStream);
         } catch (IOException e) {
@@ -22,15 +21,9 @@ public class ConfProperties {
                 try {
                     fileInputStream.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
-                }
-        }
-    }
-
+                    e.printStackTrace(); } } }
     /**
      * метод для возврата строки со значением из файла с настройками
      */
     public static String getProperty(String key) {
-        return PROPERTIES.getProperty(key);
-    }
-}
+        return PROPERTIES.getProperty(key); } }

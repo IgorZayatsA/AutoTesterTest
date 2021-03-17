@@ -5,5 +5,4 @@ public  enum CardType{
     CREDITDRIVE365,
     DEBET365,
     DEBETDRIVE365
-
 }

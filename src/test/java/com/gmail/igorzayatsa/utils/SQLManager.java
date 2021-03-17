@@ -51,7 +51,7 @@ public class SQLManager {
                 }
             }
             //connection.close();
-            } catch (SQLException throwables) {
+        } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
     }
