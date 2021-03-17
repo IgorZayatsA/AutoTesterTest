@@ -3,6 +3,8 @@ package com.gmail.igorzayatsa.tests;
 import com.gmail.igorzayatsa.pages.DepositPage;
 import com.gmail.igorzayatsa.pages.MainPage;
 import com.gmail.igorzayatsa.utils.WebDriverInit;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterSuite;
@@ -22,6 +24,8 @@ public class DepositTest {
         depositPage = PageFactory.initElements(webDriver, DepositPage.class);
     }
 
+    @Feature("Feature 1: Deposit")
+    @Story("Deposit")
     @Test (priority = 1)
     public void depositTest (){
 
@@ -36,7 +40,7 @@ public class DepositTest {
     }
 
     @AfterSuite
-    public void stopDriver(){
+    public void tearDown(){
         webDriver.quit();
     }
 

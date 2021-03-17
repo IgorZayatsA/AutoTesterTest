@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import io.qameta.allure.Step;
 
 
 public class DepositPage {
@@ -34,18 +35,19 @@ public class DepositPage {
         }
     }
 
+    @Step ("Set Deposit Amount")
     public void setAmountInput(String text){
         amountInput.sendKeys(text);
     }
 
+    @Step ("Moves Period Slider")
     public void setPeriodSlider(){
         Actions action = new Actions(webDriver);
         action.dragAndDropBy(periodSlider, -200, 0).build().perform();
     }
 
+    @Step ("Clicks Deposit Compare Button Which Show Up Popup Document")
     public void clickDepositsCompareButton(){
         depositsCompareButton.click();
     }
-
-
 }

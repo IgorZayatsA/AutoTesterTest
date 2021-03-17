@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+import io.qameta.allure.Step;
 
 public class CardsPage {
 
@@ -27,6 +27,7 @@ public class CardsPage {
     @FindBy(xpath = "//div[5]/div/div[2]/a")
     private WebElement debetCardDrive365ApplicationButton;
 
+    @Step ("Clicks on the Application Button Depending of a Card Type")
     public void applicationButtonClick(CardType cardType) throws InterruptedException {
 
         Thread.sleep(3000);
@@ -44,9 +45,5 @@ public class CardsPage {
                 debetCardDrive365ApplicationButton.click();
                 break;
         }
-
-
     }
-
-
 }

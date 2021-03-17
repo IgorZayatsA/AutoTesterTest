@@ -5,6 +5,8 @@ import com.gmail.igorzayatsa.pages.CardsPage;
 import com.gmail.igorzayatsa.pages.MainPage;
 import com.gmail.igorzayatsa.utils.CardType;
 import com.gmail.igorzayatsa.utils.WebDriverInit;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
@@ -28,6 +30,8 @@ public class CardApplicationTest {
     }
 
     @Test (priority = 1)
+    @Feature("Feature 2: Card Application")
+    @Story("Card Application")
     public void cardApplicationTest() throws Exception{
 
         mainPage.clickCardsButton();
